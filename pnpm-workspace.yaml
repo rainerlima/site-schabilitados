@@ -1,4 +1,2 @@
-dangerouslyAllowAllBuilds: true
-confirmModulesPurge: false
 allowBuilds:
-  esbuild: set this to true or false
+  esbuild: true
