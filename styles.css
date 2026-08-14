@@ -25,4 +25,15 @@ footer .footer-brand .footer-cnh-logo{width:130px;height:72px;object-fit:contain
 .review-showcase .google-card{min-height:auto;margin-top:4px}
 @keyframes reviews-loop{to{transform:translateX(calc(-50% - 9px))}}
 @media(max-width:650px){.hero-marks{right:15px;top:18px;width:160px;padding:9px}.hero-marks img:first-child{width:82px;height:48px}.hero-marks img:last-child{width:48px;height:39px}.review-track article{width:275px;min-height:230px}.review-track{animation-duration:62s}}
+@media(max-width:1050px){
+  .topbar .nav{position:absolute;top:100%;left:0;right:0;bottom:auto;width:100%;height:calc(100dvh - 86px);margin:0;padding:24px max(6vw,28px) 40px;background:#fff;z-index:100;overflow-y:auto;box-shadow:0 18px 35px rgba(35,31,32,.12)}
+  .topbar .nav.open{display:flex;flex-direction:column;align-items:stretch;gap:0}
+  .topbar .nav a{display:block;padding:18px 4px;border-bottom:1px solid var(--line);font-size:18px;color:var(--ink)}
+  .topbar .nav a:after{display:none}
+  .menu-toggle{position:relative;z-index:101}
+  .menu-toggle span{transition:transform .25s,opacity .2s}
+  .menu-toggle[aria-expanded="true"] span:first-child{transform:translateY(5px) rotate(45deg)}
+  .menu-toggle[aria-expanded="true"] span:last-child{transform:translateY(-5px) rotate(-45deg)}
+}
+@media(max-width:650px){.topbar .nav{height:calc(100dvh - 74px);padding-top:18px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}.reveal{opacity:1;transform:none;transition:none!important}.review-track{animation:none!important;transform:none!important}}
