@@ -53,3 +53,8 @@ footer .footer-brand .footer-cnh-logo{width:130px;height:72px;object-fit:contain
 .nova-cnh>.center{grid-column:2;margin-top:22px}
 @media(max-width:1050px){.nova-cnh{grid-template-columns:1fr}.nova-cnh-intro{position:static}.nova-cnh>.center{grid-column:auto}}
 @media(max-width:650px){.nova-cnh-steps li{grid-template-columns:52px 1fr;gap:15px;padding:20px 17px}.nova-cnh-steps li>span{width:48px;height:48px;font-size:22px}.nova-cnh-steps h3{font-size:20px}.nova-cnh>.center .btn{width:100%}}
+.hero-visual.hero-photo{height:auto;min-height:0;aspect-ratio:16/10;background:#2d2929;border-radius:32px 32px 100px 32px}
+.hero-photo:after{z-index:1;background:linear-gradient(180deg,rgba(35,31,32,.04) 42%,rgba(35,31,32,.36) 100%)}
+.hero-car{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+.hero-photo .hero-badge,.hero-photo .hero-marks{z-index:3}
+@media(max-width:650px){.hero-visual.hero-photo{height:auto;min-height:0;aspect-ratio:4/3;border-radius:24px 24px 70px 24px}.hero-car{object-position:center}.hero-photo .hero-marks{width:145px}.hero-photo .hero-badge{left:15px;bottom:16px;padding:14px 16px}.hero-photo .hero-badge b{font-size:15px}}
