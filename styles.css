@@ -8,4 +8,12 @@
 .map .map-label{z-index:3;transition:transform .2s,box-shadow .2s}
 .map .map-label:hover{transform:translateY(-3px);box-shadow:0 22px 55px rgba(64,28,13,.18)}
 .whatsapp-icon{width:27px;height:27px;display:block;flex:0 0 auto}
+.cnh-header{width:92px;height:54px;object-fit:contain;flex:0 0 auto}
+.traffic-light{width:50px;height:82px;border-radius:12px;background:#282323;border:4px solid var(--yellow);display:inline-flex;flex-direction:column;gap:5px;padding:7px;box-shadow:0 8px 0 #9f0b0e}
+.traffic-light i{display:block;width:100%;aspect-ratio:1;border-radius:50%;background:#ff3737;box-shadow:inset 0 -3px 0 rgba(0,0,0,.18)}
+.traffic-light i:nth-child(2){background:#ffc21c}.traffic-light i:nth-child(3){background:#49d17b}
+.footer-logos{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+footer .footer-brand .footer-sc-logo{width:190px;height:90px;object-fit:contain;filter:brightness(0) invert(1);opacity:.9}
+footer .footer-brand .footer-cnh-logo{width:130px;height:72px;object-fit:contain;filter:none;opacity:1}
+@media(max-width:1150px){.cnh-header{display:none}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}.reveal{opacity:1;transform:none;transition:none!important}}
