@@ -58,3 +58,4 @@ footer .footer-brand .footer-cnh-logo{width:130px;height:72px;object-fit:contain
 .hero-car{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;display:block}
 .hero-photo .hero-badge,.hero-photo .hero-marks{z-index:3}
 @media(max-width:650px){.hero-visual.hero-photo{height:auto;min-height:0;aspect-ratio:4/3;border-radius:24px 24px 70px 24px}.hero-car{object-position:center}.hero-photo .hero-marks{width:145px}.hero-photo .hero-badge{left:15px;bottom:16px;padding:14px 16px}.hero-photo .hero-badge b{font-size:15px}}
+.hero-photo:after{display:none}
