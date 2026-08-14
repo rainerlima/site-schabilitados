@@ -30,3 +30,12 @@ document.querySelectorAll('details').forEach((detail) => {
     });
   });
 });
+
+const reviewTrack = document.querySelector('.review-track');
+if (reviewTrack) {
+  [...reviewTrack.children].forEach((card) => {
+    const clone = card.cloneNode(true);
+    clone.setAttribute('aria-hidden', 'true');
+    reviewTrack.appendChild(clone);
+  });
+}
